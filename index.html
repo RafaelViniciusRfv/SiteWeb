@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="body">
+    
+    <header id="header">
+        <div class="nav">
+            <a href="index.html">Sobre</a>
+            <a href="home.html">Home</a>
+            <a href="cadastro.html">Cadastro</a>
+            <button onclick="darkMode()" id="button">Change Mode</button>
+            
+            <select onchange="changeSizeM(this)" id="select">
+                <option value="">10px</option>
+                <option value="">15px</option>
+            </select>
+            
+            <select onchange="changeFamilyM(this)" id="stylebtn">
+                <option value="">Georgia</option>
+                <option value="">Arial</option>
+            </select>
+
+        </div>
+    </header>
+
+    <main id="main">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="fotos/lorem.jpeg" alt="foto">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="nome">José Lourenço</h3>
+                    <p class="paragraph">Estudante de engenharia da computação que procura compreender mais assuntos sobre tecnologia. Dedicado a fazer cursos e atividades extracurriculares relacionadas a Front-End.
+                        Tem como matérias principais a Front-end, como HTML, CSS e Javascript, e com um pouco de conhecimento de Back-End.
+                        Ainda não possui nenhuma experiência profissional, mas está em busca de oportunidades de estágio. Possui ensino fundamental e médio completos e atualmente cursando o 3° período da faculdade Uninassau.               
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="fotos/rafa.jpeg" alt="foto">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="nome">Rafael Francisco</h3>
+                    <p class="paragraph">Estudante de engenharia da computação que gosta de oportunidades para aplicar suas ideias e desenvolver suas habilidades.
+                        Sua principal área de entendimento é de Banco de Dados e Estrutura de Dados, e com um pouco de conhecimento de Front-End e Back-End.
+                        Atualmente está estagiando na McDonald's de Boa Viagem. Possui ensino fundamental e médio completos e atualmente cursando o 3° período da faculdade Uninassau.               
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="fotos/vt.jpg" alt="foto">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="nome">Ewerton José</h3>
+                    <p class="paragraph">Estudante de engenharia da computação que gosta de diversificar seus ramos de conhecimentos, e aplica-lós da maneira mais eficiente possível.
+                        Seu principal conhecimento gira em torno de criação e edição, um aluno que gosta de UX e UI Design.
+                        Ainda não possui nenhuma experiência profissional, mas está em busca de oportunidades de estágio. Possui ensino fundamental e médio completos e atualmente cursando o 3° período da faculdade Uninassau.               
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="fotos/eu.jpeg" alt="foto">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="nome">Rafael Vinicius</h3>
+                    <p class="paragraph">Estudante de engenharia da computação que procura mais conhecimentos relacionados a sua área. Dedicado a fazer cursos e atividades extracurriculares relacionadas ao ramo da tecnologia.
+                        Tem foco nos assuntos relacionados a Back-end, como Python e Java e com um pouco de conhecimento de Front-End.
+                        Ainda não possui nenhuma experiência profissional, mas está em busca de oportunidades de estágio. Possui ensino fundamental e médio completos e atualmente cursando o 3° período da faculdade Uninassau.               
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer">
+        <div id="divFooter">
+            <img src="uninassau-logo.png" alt="logo" id="imgFooter">
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
